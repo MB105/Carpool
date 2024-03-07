@@ -1,0 +1,16 @@
+h1{
+    font-size:60px;
+    text-align: justify;
+}
+
+    button:hover {
+    background-color: cadetblue;
+    color: black;
+}
+div {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin: 0;
+}

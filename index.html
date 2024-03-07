@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <title>Carpool</title>
+
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<img src="image/image.jpeg"/>
+<hr/>
+
+<h1> Velkommen til biludlejning på Bornholm</h1>
+
+<button type="button" >Chauffør</button>
+
+
+<button type="button" >Passager</button>
+
+<br><br>
+
+    <select name="carpool_fra" id="carpool_fra">
+        <option value="Fra">Fra</option>
+        <optgroup label="Svensk by">
+            <option value="Malmå">Malmå</option>
+            <option value="Helsingborg">Helsingborg</option>
+            <option value="Stockholm">Stockholm</option>
+        </optgroup>
+        <optgroup label="Tysk by">
+            <option value="Berlin">Berlin</option>
+            <option value="Hamborg">Hamborg</option>
+            <option value="München">München</option>
+        </optgroup>
+        <optgroup label="Dansk by">
+            <option value="København">København</option>
+            <option value="Odense">Odense</option>
+            <option value="Aarhus">Aarhus</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <select name="fly_til" id="fly_til">
+        <option value="Til">Til</option>
+        <optgroup label="Svensk by">
+            <option value="Malmå">Malmå</option>
+            <option value="Helsingborg">Helsingborg</option>
+            <option value="Stockholm">Stockholm</option>
+        </optgroup>
+        <optgroup label="Tysk by">
+            <option value="Berlin">Berlin</option>
+            <option value="Hamborg">Hamborg</option>
+            <option value="München">München</option>
+        </optgroup>
+        <optgroup label="Dansk by">
+            <option value="København">København</option>
+            <option value="Odense">Odense</option>
+            <option value="Aarhus">Aarhus</option>
+        </optgroup>
+    </select>
+    <br><br>
+
+    <label for="dato">Afrejse:</label>
+    <input type="date" id="dato" name="dato">
+    <br><br>
+
+    <label for="dato">Hjemrejse:</label>
+    <input type="date" id="dato" name="dato">
+    <br><br>
+
+    <form action="Modtager/modtager.html">
+        <button type="submit">Søg</button>
+
+    </form>
+</body>
+</html>
